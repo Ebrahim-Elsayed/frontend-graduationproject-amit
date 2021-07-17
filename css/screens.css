@@ -1,0 +1,603 @@
+/* navbar mobile and tablet */
+
+@media (max-width: 992px) {
+    .first-nav .my-nav,
+    .sec-nav .my-nav {
+        font-size: 14px;
+    }
+
+    .first-nav .list ul,
+    .sec-nav .list ul {
+        font-size: 10px;
+        width: 100%;
+        display: none;
+    }
+
+    .logo {
+        width: 100%;
+    }
+
+    .first-nav .my-nav .logo .bars {
+        display: block;
+        position: absolute;
+        right: 4%;
+        top: 3%;
+    }
+
+    .sec-nav .my-nav .logo .bars {
+        display: block;
+        position: absolute;
+        right: 4%;
+        top: 30%;
+    }
+}
+
+/* home */
+@media (max-width:992px) {
+    .slider {
+        margin: 0 10%;
+    }
+
+    .slider .left-sec {
+        flex-basis: 100%;
+    }
+
+    .slider .right-sec {
+        flex-basis: 100%;
+    }
+
+    .first {
+        margin: auto;
+    }
+
+    .first-child {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+/* home mobile */
+@media (max-width:640px) {
+    .first-nav .logo h2 {
+        font-size: 18px;
+        padding-top: 10%;
+    }
+
+    .first-nav .logo .bars {
+        font-size: 22px;
+    }
+
+    .sec-nav .logo h2 {
+        font-size: 18px;
+        padding-top: 7%;
+    }
+
+    .sec-nav .logo .bars {
+        font-size: 22px;
+    }
+
+    .first .corona h1 {
+        font-size: 65px;
+        margin-top: 37%;
+    }
+
+    .third {
+        flex-direction: column;
+        margin: 10% auto;
+    }
+
+    .third .third-buttons {
+        margin-bottom: 10%;
+    }
+
+    .third .third-buttons button{
+        padding: 13px 30px;
+    }
+
+    .fourth {
+        flex-direction: column;
+        align-items: flex-start;
+        margin: auto;
+    }
+
+    .fourth .results {
+        margin-bottom: 5%;
+    }
+
+    .fifth {
+        margin-bottom: 15%;
+        width: 320px;
+    }
+}
+
+/* home tablet */
+
+@media (min-width:768px) and (max-width:992px) {
+    .slider {
+        margin: 0 10%;
+    }
+
+    .first-child {
+        flex-direction: row;
+    }
+
+    .second p {
+        text-align: center;
+    }
+
+    .fifth .last-ubdate {
+        margin: 10% 0;
+    }
+}
+
+/* about mobile */
+
+@media (max-width:992px) {
+    .about-corona {
+        margin: 5%;
+    }
+
+    .about-corona .text {
+        flex-basis: 100%;
+    }
+
+    .about-corona .text h3 {
+        text-align: center;
+        margin-bottom: 5%;
+    }
+
+    .about-corona .text h1 {
+        text-align: center;
+        margin-bottom: 5%;
+    }
+
+    .about-corona .list {
+        flex-basis: 100%;
+        margin: 10% 0 0;
+    }
+}
+
+/* about tablet */
+
+@media (min-width:768px) and (max-width:992px) {
+    .about-corona {
+        margin: 10%;
+    }
+}
+
+/* spread mobile  */
+@media (max-width:768px) {
+    .boxes .spreading {
+        width: 100%;
+        margin: 10% auto;
+    }
+
+    .spread .titles h1 {
+        font-size: 32px;
+    }
+    .spread .titles p{
+        padding: 2% 0;
+    }
+    .ask-button button {
+        padding: 12px 12px;
+    }
+}
+
+/*spread taplet  */
+
+@media (min-width:768px) and (max-width:992px) {
+    .boxes .spreading {
+        flex-basis: 45%;
+        margin: 5% auto;
+    }
+}
+
+/* symptom mobile  */
+
+@media (max-width:768px) {
+    .symptoms .titles h1 {
+        font-size: 32px;
+    }
+    .symptoms .titles h3 {
+        font-size: 16px;
+    }
+    .symptoms .titles p {
+        padding: 2% 0;
+    }
+
+    .symptoms .cards .card {
+        align-items: center;
+        flex-basis: 100%;
+        margin-bottom: 25%;
+    }
+
+    .symptoms .cards .card img {
+        width: 22%;
+    }
+
+    .symptoms .warnings {
+        display: block;
+    }
+
+    .symptoms .warnings .symptom-warning {
+        margin: 5% auto;
+        flex-direction: column;
+        /* margin: auto; */
+        align-items: center;
+        padding-bottom: 5%;
+    }
+    .symptoms .warnings .icon{
+        padding-bottom:3% ;
+    }
+
+    .symptoms .warnings .warn-button {
+        margin: 0 auto;
+    }
+
+    .symptoms .warnings .warn-button button {
+        padding: 12px 18px;
+    }
+}
+
+/* symptom taplet  */
+
+@media (min-width:768px) and (max-width:992px) {
+    .symptoms .cards .card {
+        flex-basis: 45%;
+        margin: 5% auto;
+    }
+
+    .symptoms .warnings {
+        flex-direction: column;
+    }
+
+    .symptoms .warnings .warn-button {
+        margin: 25px auto;
+    }
+
+}
+
+
+
+/* prevention  mobile */
+
+@media (max-width:768px) {
+    .protection .titles p {
+        padding: 0;
+        margin-bottom: 10%;
+    }
+
+    .protection .titles h3 {
+        font-size: 16px;
+    }
+    .protection .titles h1 {
+        font-size: 32px;
+    }
+
+    .protection .advices {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .protection .advices .advice {
+        margin-bottom: 20%;
+        width: 80%;
+    }
+
+    .protection .advices .advice img {
+        width: 38%;
+    }
+
+    .protection .buttons {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin: 0;
+    }
+
+    .protection .buttons a {
+        margin-bottom: 10%;
+    }
+
+    .protection .buttons button {
+        padding: 12px 18px;
+    }
+    .protection-steps .left-steps .subtitle {
+        font-size: 16px;
+    }
+
+    .protection-steps .left-steps {
+        flex-basis: 100%;
+        padding: 3%;
+    }
+
+    .protection-steps .left-steps .steps ul li {
+        padding: 10% 0;
+    }
+
+    .protection-steps .right-doctor {
+        flex-basis: 100%;
+        padding: 0;
+    }
+
+    .follow-steps .follow-heading h2 {
+        padding: 3%;
+    }
+
+    .follow-steps .follow-images .hands {
+        flex-basis: 30%;
+    }
+}
+
+
+/* prevention  tablet */
+
+
+@media (min-width:768px) and (max-width:992px) {
+    .protection .advices {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .protection .advices .advice {
+        flex-basis: 40%;
+        margin-bottom: 10%;
+    }
+
+    .protection-steps .left-steps {
+        flex-basis: 100%;
+        padding: 0 14%;
+    }
+
+    .protection-steps .right-doctor {
+        flex-basis: 80%;
+        padding: 0;
+        margin: auto;
+    }
+}
+
+/* treatment mobile and tablet */
+
+@media (max-width:992px) {
+    .treatment .left-treat {
+        flex-basis: 100%;
+    }
+
+
+    .treatment .left-treat .texting h1 {
+        text-align: center;
+        padding: 5%;
+        font-size: 32px;
+    }
+
+    .treatment .left-treat .texting h4 {
+        text-align: center;
+        padding: 5%;
+        font-size: 16px;
+    }
+
+    .treatment .left-treat .texting p {
+        padding-bottom: 7%;
+    }
+
+    .treatment .right-treat {
+        flex-basis: 100%;
+    }
+}
+
+/* do and don't mobile */
+
+@media (max-width:992px) {
+    .ways {
+        flex-wrap: wrap;
+    }
+
+    .do-dont .titles h3 {
+        font-size: 16px;
+    }
+    .do-dont .titles h1 {
+        font-size: 32px;
+    }
+
+    /* wrong way */
+
+    .ways .wrong-ways {
+        order: 2;
+        flex-basis: 50%;
+    }
+
+    .ways .wrong-ways .boxs .box {
+        flex-direction: column-reverse;
+        padding: 10% 0;
+    }
+
+    .ways .wrong-ways .boxs .box img {
+        width: 50%;
+        margin: 0;
+    }
+
+    .ways .wrong-ways .boxs .box .icon {
+        left: 66%;
+        top: 22%;
+    }
+
+    .ways .wrong-ways .boxs .box p {
+        font-size: 16px;
+        padding-top: 10%;
+    }
+
+    /* right way */
+    .ways .right-ways {
+        order: 3;
+        flex-basis: 50%;
+    }
+
+    .ways .right-ways .boxs .box {
+        flex-direction: column;
+        padding: 10% 0;
+    }
+
+    .ways .right-ways .boxs .box img {
+        width: 50%;
+        margin: 0;
+    }
+
+    .ways .right-ways .boxs .box .icon {
+        left: 24%;
+        top: 22%;
+    }
+
+    .ways .right-ways .boxs .box p {
+        font-size: 15px;
+        padding-top: 10%;
+    }
+
+    /* patient */
+    .ways .patient {
+        order: 1;
+        flex-basis: 100%;
+        margin: 10%;
+    }
+}
+
+/* do &don't tablet */
+
+@media (min-width:576px) and (max-width:992px) {
+
+    .ways .wrong-ways .boxs .box img {
+        width: 40%;
+        margin: 0;
+    }
+
+    .ways .wrong-ways .boxs .box .icon {
+        left: 63%;
+        top: 20%;
+    }
+
+    .ways .right-ways .boxs .box img {
+        width: 40%;
+        margin: 0;
+    }
+
+    .ways .right-ways .boxs .box .icon {
+        left: 31%;
+        top: 20%;
+    }
+}
+
+/* faq mobile and tablet */
+
+@media (max-width:992px) {
+    .faq .titles {
+        padding: 15% 0;
+    }
+
+    .accordion-list {
+        flex-direction: column;
+    }
+
+    .accordion-list .list {
+        width: 100%;
+    }
+
+    .accordion {
+        margin:10% 0;
+    }
+
+    .accordion .accordion-item {
+        padding: 3% 4%;
+    }
+}
+
+
+/* news mobile */
+
+@media (max-width:768px) {
+    .mynews .titles {
+        margin: 15% auto;
+    }
+
+    .mynews .boxes .news {
+        flex-basis: 100%;
+        margin-bottom: 25%;
+    }
+    .mynews .titles h3 {
+        font-size: 16px;
+    }
+    .mynews .titles h1 {
+        font-size: 32px;
+    }
+}
+
+/* news tablet */
+@media (min-width:768px) and (max-width:992px) {
+    .mynews .titles {
+        margin: 5% auto;
+    }
+
+    .mynews .boxes .news {
+        flex-basis: 45%;
+        margin: 0 auto 10%;
+    }
+}
+
+/* footer mobile */
+
+@media (max-width:992px) {
+    .footer .main .column1 {
+        flex-basis: 100%;
+        align-items: center;
+        padding: 10% 10%;
+    }
+
+    .footer .main .column1 .logo a h2 {
+        text-align: center;
+    }
+
+    .footer .main .column1 .social {
+        justify-content: center;
+    }
+
+    .column2 {
+        flex-basis: 100%;
+        padding-left: 10%;
+    }
+
+    .column3 {
+        flex-basis: 100%;
+        padding-left: 10%;
+    }
+
+    .column4 {
+        flex-basis: 100%;
+        padding-left: 10%;
+    }
+
+    .copy-rights .madeby .policy {
+        padding-top: 5%;
+    }
+}
+
+/* footer tablet */
+
+@media (min-width:768px) and (max-width:992px) {
+    .column2 {
+        flex-basis: 30%;
+        padding-left: 10%;
+    }
+
+    .column3 {
+        flex-basis: 35%;
+        padding-left: 10%;
+    }
+
+    .column4 {
+        flex-basis: 35%;
+        padding-left: 10%;
+    }
+
+    .copy-rights .madeby .policy {
+        padding: 0;
+    }
+}
